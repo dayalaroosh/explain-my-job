@@ -1,4 +1,8 @@
 
+import os
+os.environ['STREAMLIT_SERVER_ADDRESS'] = '0.0.0.0'
+os.environ['STREAMLIT_SERVER_PORT'] = '8080'
+
 import streamlit as st
 import openai
 import os
