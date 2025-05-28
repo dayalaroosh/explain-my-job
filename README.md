@@ -1,26 +1,47 @@
-# 🧠 Explain My Job – AI Agent
+# 🧠 Explain My Job — AI Agent
 
-A simple Streamlit app that explains your job to different audiences (like a 10-year-old, recruiter, or CXO) using GPT-4.
+This is an AI-powered agent that generates clear, audience-specific explanations of your job role using OpenAI's GPT model.
 
-## 🔍 Use Case
-Helps simplify complex job descriptions into human-friendly explanations. Useful for resumes, interviews, onboarding, and presentations.
+✅ **Live at**: [https://explain-my-job.replit.app](https://explain-my-job.replit.app)
 
-## 💡 Demo
+---
 
-[🖥️ Live App on Streamlit Cloud](https://explain-my-job.streamlit.app) ← _to be updated after deployment_
+## 🔍 What It Does
 
-## 🛠 Tech Stack
-- Frontend: Streamlit
-- LLM: GPT-4 via OpenAI
-- Backend: Python
-- Hosting: Streamlit Cloud
+This agent:
+- Accepts your job description as input
+- Lets you select the **target audience** (e.g., a 10-year-old, CEO, recruiter, investor)
+- Returns a tailored explanation for each audience
 
-## 🚀 How to Run Locally
+---
 
-```bash
-git clone https://github.com/dayalaroosh/explain-my-job.git
-cd explain-my-job
-pip install -r requirements.txt
-export OPENAI_API_KEY=your-key
-streamlit run main.py
+## ⚙️ Tech Stack
+
+| Layer        | Tech             |
+|--------------|------------------|
+| Frontend     | Streamlit        |
+| Backend      | Python + OpenAI  |
+| Deployment   | Replit Core      |
+| Secrets      | Replit Secrets (`OPENAI_API_KEY`) |
+
+---
+
+## 🧪 Try It
+
+Visit: [https://explain-my-job.replit.app](https://explain-my-job.replit.app)  
+> Paste your job description, choose an audience, and get a simplified version instantly.
+
+---
+
+## 🚀 Status
+
+- ✅ MVP ready
+- 🔒 OpenAI API key securely stored in Replit Secrets
+- 🌍 Publicly accessible
+
+---
+
+## 📌 Author
+
+Built by **Aroosh Dayal** as part of a 10-agent portfolio project to explore agentic AI tools.
 
