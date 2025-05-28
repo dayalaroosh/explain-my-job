@@ -25,7 +25,7 @@ if st.button("Explain"):
                 {"role": "system", "content": "You are an expert job explainer who simplifies roles."},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.7
+            temperature=1
         )
         output = response.choices[0].message.content
         st.success("Here's the explanation:")
